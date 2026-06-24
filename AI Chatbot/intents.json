@@ -1,29 +1,69 @@
 {
-  "intents": [
-    {
-      "tag": "greeting",
-      "patterns": ["Hi", "Hello", "Hey", "Good Morning", "Good Evening"],
-      "responses": ["Hello!", "Hi there!", "Welcome! How can I help you?"]
-    },
-    {
-      "tag": "goodbye",
-      "patterns": ["Bye", "Goodbye", "See you later"],
-      "responses": ["Goodbye!", "Take care!", "Have a great day!"]
-    },
-    {
-      "tag": "thanks",
-      "patterns": ["Thanks", "Thank you", "Thanks a lot"],
-      "responses": ["You're welcome!", "Happy to help!", "Anytime!"]
-    },
-    {
-      "tag": "name",
-      "patterns": ["What is your name", "Who are you"],
-      "responses": ["I am an AI Chatbot.", "You can call me SmartBot."]
-    },
-    {
-      "tag": "help",
-      "patterns": ["Can you help me", "Help", "I need assistance"],
-      "responses": ["Sure! Tell me how I can help you."]
-    }
-  ]
+"intents": [
+{
+"tag": "greeting",
+"patterns": ["Hi", "Hello", "Hey", "Good Morning", "Good Evening"],
+"responses": ["Hello!", "Hi there!", "Welcome! How can I help you?"]
+},
+{
+"tag": "goodbye",
+"patterns": ["Bye", "Goodbye", "See you later"],
+"responses": ["Goodbye!", "Take care!", "Have a great day!"]
+},
+{
+"tag": "thanks",
+"patterns": ["Thanks", "Thank you", "Thanks a lot"],
+"responses": ["You're welcome!", "Happy to help!", "Anytime!"]
+},
+{
+"tag": "name",
+"patterns": ["What is your name", "Who are you"],
+"responses": ["I am an AI Chatbot.", "You can call me SmartBot."]
+},
+{
+"tag": "help",
+"patterns": ["Can you help me", "Help", "I need assistance"],
+"responses": ["Sure! Tell me how I can help you."]
+},
+{
+"tag": "project_overview",
+"patterns": ["Tell me about this project", "What is this project", "Project overview", "Explain this chatbot"],
+"responses": ["This is an AI Chatbot built using Natural Language Processing and Deep Learning.", "The chatbot uses intent classification to understand user queries and provide responses."]
+},
+{
+"tag": "technologies",
+"patterns": ["What technologies are used", "Which libraries are used", "What framework is used"],
+"responses": ["This project uses Python, TensorFlow, Keras, NLTK, NumPy and Flask."]
+},
+{
+"tag": "features",
+"patterns": ["What are the features", "Tell me the features", "What can you do"],
+"responses": ["I can answer predefined questions, identify user intents and provide relevant responses."]
+},
+{
+"tag": "nlp",
+"patterns": ["What is NLP", "Explain Natural Language Processing", "What does NLP mean"],
+"responses": ["NLP stands for Natural Language Processing, a field of AI that helps computers understand human language."]
+},
+{
+"tag": "machine_learning",
+"patterns": ["What is machine learning", "Explain machine learning"],
+"responses": ["Machine Learning enables systems to learn patterns from data and make predictions."]
+},
+{
+"tag": "deep_learning",
+"patterns": ["What is deep learning", "Explain deep learning"],
+"responses": ["Deep Learning is a subset of Machine Learning that uses neural networks with multiple layers."]
+},
+{
+"tag": "tensorflow",
+"patterns": ["What is TensorFlow", "Why TensorFlow is used"],
+"responses": ["TensorFlow is a popular deep learning framework used for training and deploying neural networks."]
+},
+{
+"tag": "developer",
+"patterns": ["Who developed you", "Who created this chatbot", "Who is your developer"],
+"responses": ["I was developed by Aarushi Jha as part of an AI internship project."]
+}
+]
 }
