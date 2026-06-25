@@ -1,0 +1,7 @@
+flask==3.0.3
+nltk==3.8.1
+numpy==1.26.4
+tensorflow==2.19.0
+openai==1.55.3
+python-dotenv==1.0.1
+streamlit==1.40.2
