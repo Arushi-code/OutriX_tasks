@@ -16,6 +16,10 @@ Projects Included
 
 ---
 
+🚀 **[Live Interactive Demo](https://aiprojectchatbot.streamlit.app/)**
+
+---
+
 2. Twitter Sentiment Analyzer
 
 - Machine Learning and NLP project.
@@ -24,11 +28,19 @@ Projects Included
 
 ---
 
+🚀 **[Live Interactive Demo](https://twittersentimentanalyzer.streamlit.app/)**
+
+---
+
 3. Spam Email Detection
 
 - Machine Learning application for email classification.
 - Detects Spam and Ham (legitimate) emails.
 - Uses NLP preprocessing and classification algorithms.
+
+---
+
+🚀 **[Live Interactive Demo](https://smartspamemaildetection.streamlit.app/)**
 
 ---
 
